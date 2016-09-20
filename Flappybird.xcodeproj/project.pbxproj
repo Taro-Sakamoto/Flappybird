@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		508E05871D8FC78200D00780 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 508E05861D8FC78200D00780 /* sound.mp3 */; };
 		5099ACD11D86C2E1001F98F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5099ACD01D86C2E1001F98F6 /* AppDelegate.swift */; };
 		5099ACD31D86C2E1001F98F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5099ACD21D86C2E1001F98F6 /* ViewController.swift */; };
 		5099ACD61D86C2E1001F98F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5099ACD41D86C2E1001F98F6 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		508E05861D8FC78200D00780 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 		5099ACCD1D86C2E1001F98F6 /* Flappybird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flappybird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5099ACD01D86C2E1001F98F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5099ACD21D86C2E1001F98F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		5099ACCF1D86C2E1001F98F6 /* Flappybird */ = {
 			isa = PBXGroup;
 			children = (
+				508E05861D8FC78200D00780 /* sound.mp3 */,
 				5099ACD01D86C2E1001F98F6 /* AppDelegate.swift */,
 				5099ACD21D86C2E1001F98F6 /* ViewController.swift */,
 				5099ACE41D86C710001F98F6 /* GameScene.swift */,
@@ -132,6 +135,7 @@
 				5099ACDB1D86C2E1001F98F6 /* LaunchScreen.storyboard in Resources */,
 				5099ACD81D86C2E1001F98F6 /* Assets.xcassets in Resources */,
 				5099ACD61D86C2E1001F98F6 /* Main.storyboard in Resources */,
+				508E05871D8FC78200D00780 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +298,7 @@
 				5099ACE11D86C2E1001F98F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
